@@ -1,6 +1,18 @@
 # Jenkins - AWS Credentials Updater
 
-Everyone loves Jenkins and so do I! If you are using jenkins plugin for storing AWS access keys then here is a solution to rotate the keys automatically without human intervention.     
+Everyone loves Jenkins and so do I! If you are using jenkins plugin for storing AWS access keys then here is a solution to rotate the keys automatically without human intervention.
+
+
+
+## Introduction
+
+The first computer password was developed in 1961 by Dr. Fernando Corbató while working at Massachusetts Institute of Technology (MIT) for an operating system for 
+computers called the Compatible Time-Sharing System (CTSS). Interestingly the system was defeated in just one year by a Ph.D. researcher Allan Scherr in 1962 by printing the password file.
+
+Fast forward today, the concern for passwords and API keys have not changed at all. We still interact with systems using passwords and API keys. Though the password vault solutions address some of these pain points, not many have the privilege to vault solutions in their environment and certain use cases they do not have capability to rotate.
+
+In the DevOps world, we are giving more power & privileges to the automation tools. Jenkins is one of the widely used & versatile automation tools. If you are using CloudBees AWS Credentials plugin then here is a simple Jenkins pipeline which I developed to rotate the AWS access keys without involving any manual process. The job can be 
+configured to run as often as you want to rotate depending on your risk posture or the policy document. 
 
 ## Requirements
 
